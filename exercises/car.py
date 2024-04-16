@@ -42,10 +42,10 @@ class Car:
 
 
 car1 = Car('Volkswagen', 'T-Cross', 2019, 'Red')
-print(Car.valid_year(car1.year))
 car2 = Car('Chevrolet', 'Trailblazer', 2022, 'Gray')
 car3 = Car('Fiat', 'Toro', 2016, 'White')
 
+print(Car.valid_year(car1.year))
 car3.year = 2020
 
 for car in Car.all:
